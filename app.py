@@ -34,6 +34,7 @@ input_prompt = f"""
     Your response should be short and clear and give a complete information.
     Please answer based on the following document:
     {document}
+    Never say that your answer is based on a document, make it natural.
 """
 
 if submit:
