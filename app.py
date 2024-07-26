@@ -31,6 +31,7 @@ input_text = st.text_area("Entrez le texte ici...", height=200)
 submit = st.button("Valider")
 
 input_prompt = f"""
+    Your response should be short and clear
     Please answer based on the following document:
     {document}
 """
